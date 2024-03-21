@@ -11,15 +11,15 @@ document.addEventListener('mouseover', function (e) {
   }
 });
 
+document.addEventListener('click', function (e) {
+  if (e.target.tagName === 'path') {
+    window.location.href = 'https://www.fivetalentsrealty.com/va-loan-pre-qualification';
+  }
+});
+
 window.onmousemove = function (e) {
   var x = e.clientX,
       y = e.clientY;
   detailsBox.style.top = (y + 20) + 'px';
   detailsBox.style.left = (x) + 'px';
 };
-
-document.addEventListener('click', function (e) {
-  if (e.target.tagName === 'path') {
-    window.location.href = 'https://www.fivetalentsrealty.com/va-loan-pre-qualification';
-  }
-});
