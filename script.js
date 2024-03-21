@@ -17,3 +17,9 @@ window.onmousemove = function (e) {
   detailsBox.style.top = (y + 20) + 'px';
   detailsBox.style.left = (x) + 'px';
 };
+
+document.addEventListener('click', function (e) {
+  if (e.target.tagName === 'path') {
+    window.location.href = 'https://www.fivetalentsrealty.com/va-loan-pre-qualification';
+  }
+});
