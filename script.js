@@ -4,7 +4,7 @@ document.addEventListener('click', function (e) {
   if (e.target.tagName == 'path') {
     var state = e.target.dataset.state;
     if (state) {
-      window.location.href = "http://www.fivetalentsrealty.com/va-loan-pre-qualification";
+      window.location.href = "https://www.fivetalentsrealty.com/va-loan-pre-qualification";
     }
   }
 });
