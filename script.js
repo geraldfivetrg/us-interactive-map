@@ -1,5 +1,14 @@
 var detailsBox = document.getElementById('details-box');
 
+document.addEventListener('click', function (e) {
+  if (e.target.tagName == 'path') {
+    var state = e.target.dataset.state;
+    if (state) {
+      window.location.href = "http://www.fivetalentsrealty.com/va-loan-pre-qualification";
+    }
+  }
+});
+
 document.addEventListener('mouseover', function (e) {
   if (e.target.tagName == 'path') {
     var content = e.target.dataset.name;
